@@ -4,7 +4,7 @@ body { margin: 0; } /* display: flex; justify-content: center; align-items: cent
 
 
 #mainCanvas {width: 100%; position:absolute; top: 0px; margin: 0 10px;}
-#sectionTwo { position: relative; display: inline-block; margin-top: 650px; }
+#sectionTwo { position: relative; display: inline-block; margin-top: 900px; }
 #uploadImage { position: relative; display: block; }
 #toolbar1 { position: relative; display: block; margin: 10px 0; }
 #toolbar2 { position: relative; display: block; margin: 10px 0; }

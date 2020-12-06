@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangulator Experiment</title>
+  <link rel="stylesheet" href="_css/final.css">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/5efd5c9bde.js" crossorigin="anonymous"></script>
+
+  <script src="_js/p5.js"></script>
+  <script src="_js/p5.dom.min.js"></script>
+  <script src="_js/delaunator.js"></script>
+</head>
+
+<body>
+  <script src="_js/final.js"></script>
+  <div id="uploadImage">
+    <h2>Upload your own image</h2>
+    <!--
+      <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+      <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+      <p><img id="output" width="200" /></p>
+    -->
+  </div>
+
+  <div id="mainCanvas">
+    <!-- MAIN CANVAS - image and slider here -->
+  </div>
+
+  <div id="sectionTwo">
+    <div id="toolbar1">
+      <button class="placeBtn" onclick="savePNG()"><i class="far fa-file-image"></i> Save as PNG</button>
+      <button class="placeBtn" onclick="saveSVG()"><i class="far fa-file-image"></i> Save as SVG</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
